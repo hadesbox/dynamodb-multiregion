@@ -5,7 +5,7 @@ This is a POC for replicating a DynamoDB table, over different regions. In this 
 For this POC, I created a DynamoDB table on Ireland, with a key string "id" and a range key "field1", I create another table in Virginia with this same structure, also I provisioned a Kinesis shard in Ireland. 
 
 
-![image](https://.png)
+![image](https://raw.githubusercontent.com/hadesbox/dynamodb-multiregion/master/foo.png)
 
 The idea is that we wanted to replicate in one direction all the putItem operations from one dynamod to the other.
 
