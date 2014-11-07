@@ -1,0 +1,15 @@
+{
+    "name": "DynamoDB putItem multiregion replication over Kinesis",
+    "version": "0.0.1",
+    "description": "This is a POC for test replication of dynamodb table in different regions",
+    "main": "producer.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "Apache license",
+    "dependencies": {
+        "aws-sdk": "~2.0.23",
+        "chance": "~0.6.1"
+    }
+}
