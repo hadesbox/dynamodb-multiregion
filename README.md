@@ -1,3 +1,9 @@
+# Update
+
+Now you should really try DynamoDB Streams which is a similar approach to this PoC but done "the right way" (HA, faultolerance, ...s)
+
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html
+
 # DynamoDB multiregion replication
 
 This is a POC for replicating a DynamoDB table, over different regions. In this case between Ireland and Virginia.
